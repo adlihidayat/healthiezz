@@ -23,8 +23,8 @@ export default function Home() {
           Find and cook it now!
         </span>
         <Link
-          href="/explore"
-          className=" bg-[#FFD600] py-[10px] md:py-[12px]  xl:py-[15px]  w-[135px] md:w-[155px] xl:w-[205px] rounded-2xl text-center text-xl xl:text-2xl font-bold shadow-lg"
+          href={"/explore?search=b&open=53060"}
+          className="z-30 bg-[#FFD600] py-[10px] md:py-[12px]  xl:py-[15px]  w-[135px] md:w-[155px] xl:w-[205px] rounded-2xl text-center text-xl xl:text-2xl font-bold shadow-lg"
         >
           BROWSE
         </Link>
