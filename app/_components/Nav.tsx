@@ -29,7 +29,7 @@ const Nav = () => {
           onClick={() => setIsActive(false)}
           className={` ${
             isActive ? "flex" : "hidden"
-          } duration-300 md:flex absolute right-[10%] top-16 md:static flex-col bg-slate-100 md:bg-transparent rounded-xl md:flex-row  justify-center items-center space-y-2 md:space-y-0 md:space-x-5 text-lg font-semibold`}
+          } duration-300 md:flex absolute right-[10%] top-16 md:static flex-col bg-slate-100 md:bg-transparent rounded-xl md:flex-row  justify-center items-center space-y-2 md:space-y-0 md:space-x-5 text-sm md:text-lg font-semibold`}
         >
           <Link
             href={"/"}
