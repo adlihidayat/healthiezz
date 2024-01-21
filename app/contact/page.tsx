@@ -17,7 +17,7 @@ function page() {
         FOLLOW US ON SOCIAL MEDIA
       </h1>
       <div className="flex space-x-6 items-center">
-        <a href="https://mail.google.com/">
+        <a href="https://mail.google.com/" aria-label="email">
           <Image
             src={"/contacts/email.svg"}
             alt=""
@@ -26,7 +26,7 @@ function page() {
             className="w-8 sm:w-10"
           />
         </a>
-        <a href="https://www.youtube.com/">
+        <a href="https://www.youtube.com/" aria-label="youtube">
           <Image
             src={"/contacts/youtube.svg"}
             alt=""
@@ -35,7 +35,7 @@ function page() {
             className="w-9 sm:w-11"
           />
         </a>
-        <a href="https://www.instagram.com/">
+        <a href="https://www.instagram.com/" aria-label="instagram">
           <Image
             src={"/contacts/instagram.svg"}
             alt=""
@@ -44,7 +44,7 @@ function page() {
             className="w-7 sm:w-9"
           />
         </a>
-        <a href="https://www.tiktok.com/">
+        <a href="https://www.tiktok.com/" aria-label="tiktok">
           <Image
             src={"/contacts/tiktok.svg"}
             alt=""
