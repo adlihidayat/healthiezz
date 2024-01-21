@@ -16,7 +16,7 @@ const Nav = () => {
   return (
     <header className="bg-[#FEFEFE] z-50 ovex fixed w-screen h-20 md:h-32 px-[10%] flex justify-between items-center top-0">
       <div className="flex items-center space-x-10">
-        <a href="/">
+        <Link href="/" aria-label="Back to home">
           <Image
             src={"/logo.png"}
             alt=""
@@ -24,7 +24,7 @@ const Nav = () => {
             height={100}
             className="w-7"
           />
-        </a>
+        </Link>
         <nav
           onClick={() => setIsActive(false)}
           className={` ${
@@ -61,6 +61,7 @@ const Nav = () => {
       <button
         onClick={() => setIsActive(!isActive)}
         className="flex flex-col space-y-1 md:hidden"
+        aria-label="navigation button"
       >
         <div className=" h-[3px] w-7 bg-black rounded-full"></div>
         <div className=" h-[3px] w-7 bg-black rounded-full"></div>
@@ -77,6 +78,7 @@ const Nav = () => {
           onClick={() =>
             router.push(`/explore?search=${userInput}&open=${search}`)
           }
+          aria-label="Search"
         >
           <Image
             src={"/search.svg"}

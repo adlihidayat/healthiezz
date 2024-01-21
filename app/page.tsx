@@ -30,34 +30,34 @@ export default function Home() {
         </Link>
       </div>
       <Image
-        src="/home/leaf1.png"
+        src="/home/leaf1.webp"
         alt=""
-        width={100}
-        height={100}
+        width={200}
+        height={200}
         className="absolute w-[90px] top-12 mr-[40%]"
       />
       <Image
-        src="/home/leaf2.png"
+        src="/home/leaf2.webp"
         alt=""
-        width={100}
-        height={100}
+        width={200}
+        height={200}
         className="absolute w-[90px] top-48 ml-[20%]"
       />
       <Image
-        src="/home/left.svg"
+        src="/home/left.webp"
         alt=""
-        width={100}
-        height={100}
+        width={1000}
+        height={1000}
         priority={true}
-        className="absolute -bottom-10 -left-16 w-60 sm:w-[350px] md:w-[400px] xl:w-[500px]"
+        className="absolute -bottom-20 -left-28 md:-left-36 md:-bottom-28 xl:-left-52 xl:-bottom-40 w-72 sm:w-[350px] md:w-[450px] xl:w-[600px]"
       />
       <Image
-        src="/home/right.svg"
+        src="/home/right.webp"
         alt=""
-        width={100}
-        height={100}
+        width={1000}
+        height={1000}
         priority={true}
-        className="absolute -bottom-10 sm:-bottom-20 lg:-bottom-40 -right-6 w-60 sm:w-[400px] md:w-[480px] lg:w-[600px] xl:w-[700px]"
+        className="absolute -bottom-20 -right-20 sm:-bottom-28 sm:-right-28 lg:-bottom-40 xl:-right-40  w-80 sm:w-[450px] md:w-[520px] lg:w-[600px] xl:w-[700px]"
       />
     </main>
   );

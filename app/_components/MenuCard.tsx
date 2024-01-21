@@ -45,7 +45,7 @@ function MenuCard({ activeMenu, data, setActiveMenu }: any) {
       <p className="group-hover:text-[18px] group-hover:w-36 duration-300 w-32 h-16 overflow-hidden leading-5">
         {data.strMeal}
       </p>
-      <span className="text-[#E3CB62] h-10 group-hover:text-[18px] group-hover:w-36 duration-300">
+      <span className="text-[#95832f] h-10 group-hover:text-[18px] group-hover:w-36 duration-300">
         #{data.idMeal}
       </span>
     </button>

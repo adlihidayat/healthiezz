@@ -46,7 +46,7 @@ function Detail() {
           alt=""
           width={100}
           height={100}
-          className="w-[100%]"
+          className="w-[100%] h-full object-cover"
         />
       </div>
       <div className="  py-10 px-8 xl:px-0  rounded-t-3xl flex flex-col space-y-5">
