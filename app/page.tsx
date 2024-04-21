@@ -24,7 +24,7 @@ export default function Home() {
         </span>
         <Link
           href={"/explore?search=b&open=53060"}
-          className="z-30 bg-[#FFD600] py-[10px] md:py-[12px]  xl:py-[15px]  w-[135px] md:w-[155px] xl:w-[205px] rounded-2xl text-center text-xl xl:text-2xl font-bold shadow-lg"
+          className="z-30 bg-[#FFD600] hover:bg-[#d0ba4f] duration-300 ease-in-out py-[10px] md:py-[12px]  xl:py-[15px]  w-[135px] md:w-[155px] xl:w-[205px] rounded-2xl text-center text-xl xl:text-2xl font-bold shadow-lg"
         >
           BROWSE
         </Link>

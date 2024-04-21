@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center"><b>Healthiez</b></h1>
 
-## Getting Started
+<p align="center">
+    <a href="https://healthiezz.vercel.app" target="_blank"><img src="public/Icon.png" alt="Messendger" width="100" /></a>
+</p>
 
-First, run the development server:
+<h4 align="center">Restaurant web app</h4>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<p align="center">
+<p align="center">
+    <a href="https://github.com/adlihidayat/healthiezz/blob/main/LICENSE" target="_blank">
+        <img src="https://img.shields.io/github/license/adlihidayat/healthiezz?style=flat-square" alt="licence" />
+    </a>
+    <a href="https://github.com/adlihidayat/healthiezz/fork" target="_blank">
+        <img src="https://img.shields.io/github/forks/adlihidayat/healthiezz?style=flat-square" alt="forks"/>
+    </a>
+    <a href="https://github.com/adlihidayat/healthiezz/stargazers" target="_blank">
+        <img src="https://img.shields.io/github/stars/adlihidayat/healthiezz?style=flat-square" alt="stars"/>
+    </a>
+    <a href="https://github.com/adlihidayat/healthiezz/issues" target="_blank">
+        <img src="https://img.shields.io/github/issues/adlihidayat/healthiezz?style=flat-square" alt="issues"/>
+    </a>
+    <a href="https://github.com/adlihidayat/healthiezz/pulls" target="_blank">
+        <img src="https://img.shields.io/github/issues-pr/adlihidayat/healthiezz?style=flat-square" alt="pull-requests"/>
+    </a>
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center">
+    <a href="https://healthiezz.vercel.app">Visit Website</a>
+</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 👋🏻 Explanation about Healthiez.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This is a <b>Niche website</b> that provide informations abaout healthy food. Catering to individuals seeking to nourish their bodies and minds with delicious and wholesome recipes. The website offers a the list of healthy food, ingredient, the video of how to cook it, etc.
 
-## Learn More
+The data of this website is come from <a href="https://www.themealdb.com/api.php">TheMealDb</a>, an API that provide information about food and has lot of feature
 
-To learn more about Next.js, take a look at the following resources:
+## 🔥 Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Here are the features of this website:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- <b>Search Bar</b>, user can search the food easily by its name
+- <b>Filter</b>, the food can be showed by its type
 
-## Deploy on Vercel
+## 🛠️ Tools
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The website is built using a robust tech stack, incorporating cutting-edge technologies to ensure seamless performance and user experience
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- <b>Next js</b>, One of the most popular Javascript framework
+- <b>Tailwind CSS</b>, framework that make styling easier
+- <b>SWR</b>, React Hooks for Data Fetching
+
+## 💿 Usage
+
+To get started, simply visit our website at <https://healthiezz.vercel.app>. Then follow these step.
+
+1. Click the browse button
+2. Start exploring the food by type of the food or search by name of the food
+3. Click any food and see the detail of it
